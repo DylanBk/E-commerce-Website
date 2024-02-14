@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Central | About</title>
+</head>
+<body>
+    <div id="header">
+        <h1><a href="index.html">Sneaker Central</a></h1>
+    </div>
+
+    <div id="navbar">
+        <a href="index.html"><button class="navbar-item" id="home-button">Home</button></a>
+        <a href="products.html"><button class="navbar-item">Products</button></a>
+        <button class="navbar-item-alt">About Us</button>
+        <button onclick="showContacts();" class="navbar-item" id="contact-button">Contact Us</button>
+        <input type="text" placeholder="Search for a product..." class="navbar-item" id="search-bar">
+        <input type="submit" value="Search" class="navbar-item" id="search-button" onclick="searchBar()">
+    </div>
+
+    <div onclick="showContacts();"class="overlay"></div>
+    <div class="contact-details">
+        <h2>How to contact us:</h2>
+        <h3><li>Email: <a href="mailto:dylanbullock.965@accesscreative.ac.uk">enquiries@sneakercentral.com</a></li></h3>
+        <h3><li>Instagram: <a href=#>@sneakercentral</a></li></h3>
+        <h3><li>Twitter: <a href=#>@sneakercentral</a></li></h3>
+        <h3><li>FaceBook: <a href=#>Sneaker Central</a></li></h3>
+        <h3><li>Support Number: <a href=#>12 345 678 910</a></li></h3>            
+    </div>
+
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Sneaker Central was founded in January, 2024.
+        Here, our core values are quality and satisfication
+        while remaining eco-friendly. We aim to deliver a
+        high-quality product to our customers as ecologically
+        as possible.</p>
+        <br><br>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla ut eius, sapiente nihil, laborum illo, deleniti odio omnis magnam totam minima. Iste, aperiam nesciunt recusandae hic ratione molestias esse beatae.
+        </p>
+        <br><br>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, accusamus! Repellat veniam laudantium officiis dignissimos magnam, vitae, tempore unde, expedita ipsa assumenda reprehenderit commodi! Ullam odit cum error in nulla!
+        </p>
+    </div>
+
+    <div id="footer">
+        <a href="index.html">home</a>
+        <a href="products.html">browse products</a>
+        <a href="#header">about</a>
+        <a onclick="showContacts();">contact details</a>
+    </div>
+</body>
+</html>

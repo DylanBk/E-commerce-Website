@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Central | Products</title>
+</head>
+<body>
+    <div id="header">
+        <h1><a href="index.html">Sneaker Central</a></h1>
+    </div>
+
+    <div id="navbar">
+        <a href="index.html"><button class="navbar-item" id="home-button">Home</button></a>
+        <a href="#navbar"><button class="navbar-item-alt">Products</button></a>
+        <a href="about.html"><button  class="navbar-item">About Us</button></a>
+        <button onclick="showContacts();" class="navbar-item" id="contact-button">Contact Us</button>
+        <input type="text" placeholder="Search for a product..." class="navbar-item" id="search-bar">
+        <input type="submit" value="Search" class="navbar-item" id="search-button" onclick="searchBar()">
+    </div>
+
+    <div class="container">
+        <h2>Whatever shoes you're into, we have the right pair for you...</h2>
+        <div class="container-item">
+            <img src="placeholder">
+            <a href="#"><h4>placeholder</h4></a>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <a href="index.html">home</a>
+        <a href="#header">browse products</a>
+        <a href="about.html">about</a>
+        <a onclick="showContacts();">contact details</a>
+    </div>
+</body>
+</html>
